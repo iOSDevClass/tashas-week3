@@ -15,6 +15,8 @@
 		D8EFB5C11BCEC9AF00004E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EFB5BF1BCEC9AF00004E0F /* LaunchScreen.storyboard */; };
 		D8EFB5CC1BCEC9AF00004E0F /* tableOfColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFB5CB1BCEC9AF00004E0F /* tableOfColorsTests.m */; };
 		D8EFB5D71BCEC9B000004E0F /* tableOfColorsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFB5D61BCEC9B000004E0F /* tableOfColorsUITests.m */; };
+		D8EFB5E61BCECA2900004E0F /* CustomTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFB5E51BCECA2900004E0F /* CustomTVCell.m */; settings = {ASSET_TAGS = (); }; };
+		D8EFB5E91BCED02400004E0F /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFB5E81BCED02400004E0F /* Color.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		D8EFB5D21BCEC9AF00004E0F /* tableOfColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableOfColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EFB5D61BCEC9B000004E0F /* tableOfColorsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableOfColorsUITests.m; sourceTree = "<group>"; };
 		D8EFB5D81BCEC9B000004E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EFB5E41BCECA2900004E0F /* CustomTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTVCell.h; sourceTree = "<group>"; };
+		D8EFB5E51BCECA2900004E0F /* CustomTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTVCell.m; sourceTree = "<group>"; };
+		D8EFB5E71BCED02400004E0F /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		D8EFB5E81BCED02400004E0F /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				D8EFB5B71BCEC9AF00004E0F /* ViewController.h */,
 				D8EFB5B81BCEC9AF00004E0F /* ViewController.m */,
 				D8EFB5BA1BCEC9AF00004E0F /* Main.storyboard */,
+				D8EFB5E41BCECA2900004E0F /* CustomTVCell.h */,
+				D8EFB5E51BCECA2900004E0F /* CustomTVCell.m */,
+				D8EFB5E71BCED02400004E0F /* Color.h */,
+				D8EFB5E81BCED02400004E0F /* Color.m */,
 				D8EFB5BD1BCEC9AF00004E0F /* Assets.xcassets */,
 				D8EFB5BF1BCEC9AF00004E0F /* LaunchScreen.storyboard */,
 				D8EFB5C21BCEC9AF00004E0F /* Info.plist */,
@@ -275,6 +285,8 @@
 			files = (
 				D8EFB5B91BCEC9AF00004E0F /* ViewController.m in Sources */,
 				D8EFB5B61BCEC9AF00004E0F /* AppDelegate.m in Sources */,
+				D8EFB5E91BCED02400004E0F /* Color.m in Sources */,
+				D8EFB5E61BCECA2900004E0F /* CustomTVCell.m in Sources */,
 				D8EFB5B31BCEC9AF00004E0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
